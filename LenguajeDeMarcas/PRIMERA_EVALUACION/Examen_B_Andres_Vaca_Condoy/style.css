@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+}
+/*HEADER*/
+.a-nav{
+    color: #fdbe10;
+    font-size: 20px;
+}
+
+hr{
+    margin-bottom: 0px;
+}
+
+.img-header{
+    width: 30%;
+    height: auto;
+}
+
+header{
+    display: flex;
+    background-color: #35302F;
+    padding: 10px 0px 0 100px;
+    margin-bottom: -8px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    margin-left: 450px;
+}
+/*FIN HEADER*/
+
+/*COMIENZA CONTENEDORPADRE1*/
+
+.contenedorpadre1{
+    width: auto;
+    height: 100vh;
+    background: url('/Recursos/fondo.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-contp1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria-cont1{
+    color: white;
+    border: solid white;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+/*FIN CONTENEDORPADRE1*/
+
+/*COMIENZA CONTENEDORPADRE2*/
+.contenedorpadre2{
+    height: 100vh;
+    width: auto;
+}
+.contenedorpadre2, .titulos-contenedorpadre2, .cont-minicontscp2, .miniconts-cp2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-minicontscp2{
+    flex-direction: row;
+}
+
+.p-c2{
+    color: #fdbe10;
+}
+
+.t2-c2{
+    size: 24px;
+}
+/*FIN CONTENEDORPADRE2*/
+
+/*CONTENEDORPADRE3 INFORMACION.HTML*/
+
+.contenedorpadre3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-c3{
+    font-size: 72px;
+    color: #fdbe10;
+}
+
+/* FIN CONTENEDORPADRE3 INFORMACION.HTML*/
+
+/*CONTENEDORPADRE4 INFORMACION.HTML*/
+
+.contenedorpadre4{
+    display: flex;
+    flex-direction: row;
+}
+
+.miniconts-cp4{
+    margin-left: 20%;
+    width: 30%;
+    height: auto;
+}
+
+.opt-c4{
+    padding: 12px 40px 12px 5px;
+}
+
+.boton-c4{
+    padding: 12px 100px 12px 5px;
+    background-color: #fdbe10;
+}
+
+/*FIN INFORMACIÓN.HTML*/
+
+/*LOGIN.HTML*/
+
+.contenedorpadre5{
+    margin-left: 10%;
+    display: flex;
+}
+
+.subcontenedor1-contp5{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.t1-c5{
+    margin-left: 10%;
+}
+
+.inicio-usuario{
+    padding: 12px 300px 12px 5px;
+    margin-bottom: 10px;
+}
+
+.boton-cp5{
+    padding: 12px 5px 12px 5px;
+}
+/*FINAL LOGIN.HTML*/

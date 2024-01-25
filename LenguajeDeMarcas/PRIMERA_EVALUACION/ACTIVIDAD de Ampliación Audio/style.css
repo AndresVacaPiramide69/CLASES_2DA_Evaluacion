@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo-menu{
+    width: 75px;
+    height: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    padding-left: 80px;
+    gap: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cabecero{
+    color: gray;
+}
+
+/*Principio contenedor 1*/
+.contenedor1{
+    height: 100vh;
+    background: url(images/image1.jpg) no-repeat;
+    background-position: center;
+}
+
+.cont-1h{
+    margin-left: 12%;
+    margin-right: 43%;
+    color: white;
+    padding-top: 30px;
+}
+
+.cont-1p{
+    margin-left: 12%;
+    color: rgb(63, 63, 63);
+    padding-bottom: 10px;
+}
+
+.boton-cont1{
+    background-color: white;
+    color: black;
+    margin-left: 12%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*Final del contenedor 1*/
+
+/*Principio contenedor 2*/
+
+.contenedor2{
+    height: 100vh;
+    background: url(images/image2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.contenedorhijo-cont2{
+    background-color: white;
+    width: 42%;
+    height: 250px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.cont-2h,.cont-2p{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.boton-cont2{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+/*Final del contenedor 2*/
+
+/* COMIENZA EL CONTENEDOR 3 */
+
+.contenedor3{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.subcontenedorc3-contenedores{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.minicontenedor{
+    display: flex;
+    flex-direction: column;
+    width: 33.1%;
+    height: auto;
+    align-content: center;
+}
+
+.enlaces-c3{
+    color: black;
+}
+
+/* FIN CONTAINER 3 */
+
+/* FORMULARIO */
+
+.body-form{
+    background-color: black;
+}
+
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-formulario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+option{
+    border: none;
+    border-bottom: 2px solid black;
+}

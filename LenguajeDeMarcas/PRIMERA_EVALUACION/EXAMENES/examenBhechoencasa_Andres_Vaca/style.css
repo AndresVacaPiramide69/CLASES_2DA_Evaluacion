@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a{
+    color: #fdbe10;
+}
+
+header img{
+    width: 30%;
+    height: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #35302F;
+    border-bottom: solid 1px #fdbe10;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container1{
+    background: url('RecursosB/fondo.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.container1 p{
+    color: white;
+    border: solid white 1px;
+    padding: 10px;
+}
+
+
+.container2, .titulos-cont2, .minicontenedores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos-cont2 p{
+    color: #fdbe10;
+}
+
+.titulos-cont2 h2{
+    font-size: 24px;
+}
+
+.contenedor-miniconts{
+    display: flex;
+    flex-direction: row;
+}
+
+.minicontenedores img{
+    width: 100%;
+    height: auto;
+}
+
+.container1-informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 2px black;
+    padding-bottom: 20px;
+}
+
+.container1-informacion h1{
+    font-size: 72px;
+    color: #fdbe10;
+}
+
+.containerpadre-informacion{
+    display: flex;
+    flex-direction: row;
+}
+
+.container2-informacion{
+    width: 30%;
+    margin-left: 20%;
+}
+
+.container2-informacion select{
+    padding: 12px 40px 12px 5px;
+}
+
+.container2-informacion input{
+    padding: 12px 100px 12px 5px;
+    background-color: #fdbe10;
+}
+
+.login-contenedor1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.contenedor-formularios{
+    display: flex;
+    flex-direction: row;
+}
+
+.formularios-login{
+    width: 40%;
+}
+
+.formularios-login2{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.boton-login{
+    padding: 12px 5px 12px 5px;
+}
+
+.formularios-login2 input{
+    padding: 12px 300px 12px 5px;
+    margin-bottom: 10px;
+}

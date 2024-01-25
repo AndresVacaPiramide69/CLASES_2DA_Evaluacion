@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+
+.cont-padre{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.cont-hijo{
+    border: solid black 5px;
+}

@@ -1,0 +1,26 @@
+CABECERA
+
+<?xml version ="1.0" encoding="UTF-8"?>
+
+<NOTICIA>
+    <autor>
+        JOSÉ FELIX DÍAZ
+    </autor>
+    <pie_de_foto>Carlo Ancceloti</pie_de_foto>
+    <fecha>
+        <dia>15/</dia>
+        <mes>01/</mes>
+        <año>2024</año>
+    <fecha>
+    <hora>6:20 CET</hora>
+    <titulo>TITULO JEJEJE</titulo>
+    <texto>
+        Supercampeon con todos los honores
+    </texto>
+    <Relacionados>
+        <cronica>Madrid</cronica>
+        <repaso>Uno a uno del Real Madrd</repaso>
+    </Relacionados>
+
+    <Relacionados cronica="Real Madrid cierra..." repaso="Uno a uno..." /> <!-- Creado el elemento crónica con atributos.-->
+</NOTICIA>

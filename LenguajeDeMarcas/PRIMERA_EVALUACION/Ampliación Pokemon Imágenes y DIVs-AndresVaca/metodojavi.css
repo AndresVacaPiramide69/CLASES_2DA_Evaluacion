@@ -1,0 +1,42 @@
+body{
+    background-color: #7FFFD4;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.carta-pokemon{
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.nombre-pokemon{
+    border-bottom: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    padding-top: 30px;
+    transition: transform 0.3s ease-out;
+}
+
+.carta-pokemon:hover{
+    .nombre-pokemon{
+        background-color: black;
+        color: white;
+    }
+
+    .imagen-pokemon{
+        transform: rotateY(-30px);
+    }
+}

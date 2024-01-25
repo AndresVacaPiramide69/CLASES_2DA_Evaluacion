@@ -1,0 +1,35 @@
+<? xml version="1.0" encoding="UTF-8"?>
+
+<curriculum>
+    <nombre nombre="Andres" primerApellido="Vaca">
+        <segundoApellido>Condoy</segundoApellido>
+    </nombre>
+
+    <fechaNacimiento>06-02-2004</fechaNacimiento>
+
+    <residencia>
+        <ciudad>Tarazona</ciudad>
+        <pais>España</pais>
+    </residencia>
+
+    <datosdecontacto>
+        <telefono>696 256 227</telefono>
+        <correo>230060@fppiramide.com</correo>
+        <perfilLinkedin>andrestrzn04</perfilLinkedin>
+    </datosdecontacto>
+
+    <breveDescripcionPersonal descripcion="Hola hola hola"></breveDescripcionPersonal>
+    <listadoCompetencias>
+        <competencia id="1">Wason</competencia>
+        <competencia id="2">PeruanBoy</competencia>
+        <competencia id="3">Loquete que programa</competencia>
+    </listadoCompetencias>
+    <formacionAcademica>
+        <formacion id="1" centro="SagradaFamilia">ESO</formacion>
+        <formacion id="2" centro="CIP ETI">FPGM SMR</formacion>
+        <formacion id="3" centro="SagradaFamilia">Primaria</formacion>
+        <formacion id="4" centro="SagradaFamilia">Guarderia</formacion>
+        <formacion id="5" centro="CPIFP PIRAMIDE">FPGS DAW</formacion>
+    </formacionAcademica>
+
+</curriculum>

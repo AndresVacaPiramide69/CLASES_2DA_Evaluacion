@@ -1,0 +1,49 @@
+
+body{
+    background-color: #7FFFD4;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.carta-pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: solid 4px;
+    border-radius: 4px;
+}
+
+.nombre-pokemon{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    border-bottom: solid 4px;
+}
+
+.imagen-pokemon{
+    transition: 0.3s;
+}
+
+.carta-pokemon:hover .nombre-pokemon{
+    color: white;
+    background-color: black;
+}
+
+.carta-pokemon:hover .imagen-pokemon{
+    transform: translateY(-30px);
+    transition: 0.3s;
+}

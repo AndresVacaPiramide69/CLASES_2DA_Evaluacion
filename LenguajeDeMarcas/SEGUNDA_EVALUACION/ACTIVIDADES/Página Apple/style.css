@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+.cont-img1{
+    background: url('images/apple1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+.cont-img2{
+    background: url('images/apple2.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+.cont-img2 h3{
+    color: white;
+}
+
+.cont-img1, .cont-img2{
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (min-width:320px) and (max-width:480px) { /*MOVIL*/
+    .cont-img1 h2{
+        font-size: 32px;
+    }
+
+    .cont-img2 h3{
+        font-size: 19px;
+    }
+}
+
+@media all and (min-width: 769px) and (max-width:1024Px) { /*PORTATIL*/
+    .cont-img1 h2{
+        font-size: 48px;
+    }
+
+    .cont-img2 h3{
+        font-size: 24px;
+    }
+}
+
+@media all and (min-width: 1201px) { /*Pantallas*/
+    .cont-img1 h2{
+        font-size: 56px;
+    }
+
+    .cont-img2 h3{
+        font-size: 28px;
+    }
+}

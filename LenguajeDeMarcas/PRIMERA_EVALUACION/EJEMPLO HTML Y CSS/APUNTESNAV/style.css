@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+img{
+    width: 250px;
+    height: auto;
+}
+
+header{
+    background-color: #37423a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a{
+    color: #f2f6cb;
+}

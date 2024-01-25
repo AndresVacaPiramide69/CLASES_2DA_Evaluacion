@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="style.css">
+</head>
+
+<body class="body-form">
+
+    <div class="formulario">
+        <form action="/my-handling-form-page" method="post">
+            <h2>Pídenos una oferta personalizada</h2>
+            <div class="info-formulario">
+                <select name="coches" id="coche_usr">
+                    <option value="coche1" selected>Q8</option>
+                    <option value="coche22">Q7</option>
+                    <option value="coche3">Q6</option>
+                </select>
+            </div>
+            <div class="info-formulario">
+                <h2>Información personal</h2>
+                <label for="radio">Sra</label>
+                <input type="radio" name="genero" id="sra" >
+
+                <label for="radio">Sr</label>
+                <input type="radio" name="genero" id="sr">
+            </div>
+            <div class="datos-formulario">
+
+                <input type="text" name="name_usr" id="name" placeholder="Nombre*">
+                <input type="text" name="lastname_usr" id="last-name" placeholder="Primer Apellido*">
+            </div>
+            <div class="datos-formulario">
+                <input type="email" name="mail_usr" id="mail" placeholder="E-mail*">
+                <input type="tel" name="number_usr" id="num-user" placeholder="Teléfono*">
+            </div>
+            <h2>Concesionario de interes</h2>
+            <div class="datos-formulario">
+                <select name="provincia" id="prov-usr">
+                    <option value="option1">Zaragoza</option>
+                    <option value="option2">Valencia</option>
+                    <option value="option3">Huesca</option>
+                </select>
+                <input type="search" name="search_usr" id="search-usr" placeholder="Search">
+            </div>
+            <div class="condicion-formulario">
+                <p>En audi queremos ofrecerte el mejor servicio para que tu experiencia sea 
+                    especial. <br>
+                    Por eso nos gustaría que nos confirmaras si quieres seguir manteniendo 
+                    el contacto con nostros aceptando las tres casillas: <br>
+                    1. Información de novedades, productos y servicios, e incluso invitarte a eventos 
+                    exclusivos de la marca. ¿Te parece bién? <u>(Ejemplos)</u>
+                </p>
+
+                <input type="radio" name="condicon" id="Sí">
+                <label for="condiciones">Sí</label>
+                
+                <input type="radio" name="condicon" id="No">
+                <label for="condiciones">No</label>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

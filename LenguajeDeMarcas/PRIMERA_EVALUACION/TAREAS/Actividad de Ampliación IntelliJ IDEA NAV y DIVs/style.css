@@ -1,0 +1,81 @@
+/*Empezamos el header y nav*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+header{
+    height: 25px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+}
+
+.menu{
+    text-decoration: none;
+    color: rgba(39,40,44,.7);
+}
+
+.cabecera{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+/*Empezamos el header y nav*/
+/*Empezamos el contenedor 1*/
+.contenedor1{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 7%, rgba(242,99,99,1) 46%, rgba(251,159,29,1) 94%);
+    padding-left: 20px;
+}
+
+.tit-cont1{
+    font-size: 72px;
+    color: white;
+    margin-right: 35%;
+}
+.p-cont1{
+    font-size: 29px;
+    color: white;
+    margin-right: 35%;
+}
+.img-logo{
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+}
+/*Terminamos el contenedor 1*/
+/*Empezamos el contenedor 2 y cont3 tiutlo*/
+.contenedor3{
+    background-color: #27282C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-madre{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cont-hijos{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 25px;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+}
+
+/*Terminamos el contenedor 2 y cont3 tiutlo*/
