@@ -19,3 +19,18 @@
         <hora>23:46</hora>
     </fechaYHora>
 </billete>
+
+
+<!-- ENUNCIADO 2 -->
+
+<? xml version="1.0" encoding="UTF-8"?>
+<curriculoDAW>
+    <informacion nombre="Entornos de Desarrollo" codigo="0487">
+        <creditos>6</creditos>
+        <duracion>96</duracion>
+        <unidades>
+            <unidad id="1" nombre="Desarrollo software" duracion="20"></unidad>
+            <unidad id="2" nombre="Lenguaje de Marcas" duracion="25"></unidad>
+        </unidades>
+    </informacion>
+</curriculoDAW>
