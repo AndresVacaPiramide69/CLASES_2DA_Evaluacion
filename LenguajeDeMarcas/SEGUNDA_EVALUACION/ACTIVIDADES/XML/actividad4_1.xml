@@ -1,5 +1,6 @@
-<? xml version="1.0" encoding="UTF-8"?>
+<!-- ENUNCIADO 1 -->
 
+<? xml version="1.0" encoding="UTF-8"?>
 <billete>
     <infoPasajero>
         <nombre>Andres</nombre>
@@ -34,3 +35,29 @@
         </unidades>
     </informacion>
 </curriculoDAW>
+
+
+<!-- ENUNCIADO 3 -->
+
+<? xml version="1.0" encoding="UTF-8"?>
+<Spotify>
+    <nombreLista>
+        <nombre>NOSECOMOSENTIRME</nombre>
+    </nombreLista>
+    <canciones nombre="KEONDA" fecha="2022">
+        <album></album>
+        <autores>
+            <nombre id="1" nombre="Saiko"></nombre>
+            <nombre id="2">Abhir Hathi</nombre>
+        </autores>
+        <numOyentesMensuales oyentes="2.481.498"></numOyentesMensuales>
+    </canciones>
+    <cancionesRecomendadas>
+        <canciones id="1" nombreCancion="305" >
+            <autores>
+                <nombre id="1" nombre="Alejo"></nombre>
+                <nombre id="2"></nombre>
+            </autores>
+        </canciones>
+    </cancionesRecomendadas>
+</Spotify>
