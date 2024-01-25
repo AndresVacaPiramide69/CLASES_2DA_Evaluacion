@@ -1,0 +1,21 @@
+<? xml version="1.0" encoding="UTF-8"?>
+
+<billete>
+    <infoPasajero>
+        <nombre>Andres</nombre>
+        <primerApellido>Vaca</primerApellido>
+        <segApellido></segApellido>
+    </infoPasajero>
+    <infoAeropuerto>
+        <nombreOrigen>Zaragoza</nombreOrigen>
+        <nombreDestino>Barcelona</nombreDestino>
+        <nombreAeropuertoOrigen>Yiyo Vuelos 4k</nombreAeropuertoOrigen>
+        <nombreAeropuertoDestino>Ciudad Navaja Vuelos</nombreAeropuertoDestino>
+    </infoAeropuerto>
+    <fechaYHora>
+        <year>2024</year>
+        <month>01</month>
+        <day>28</day>
+        <hora>23:46</hora>
+    </fechaYHora>
+</billete>
