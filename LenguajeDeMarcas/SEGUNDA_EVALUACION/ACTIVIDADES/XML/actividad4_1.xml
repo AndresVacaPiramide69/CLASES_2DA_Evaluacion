@@ -2,17 +2,17 @@
 
 <? xml version="1.0" encoding="UTF-8"?>
 <billete>
-    <infoPasajero>
+    <info_pasajero>
         <nombre>Andres</nombre>
-        <primerApellido>Vaca</primerApellido>
-        <segApellido></segApellido>
-    </infoPasajero>
-    <infoAeropuerto>
-        <nombreOrigen>Zaragoza</nombreOrigen>
-        <nombreDestino>Barcelona</nombreDestino>
-        <nombreAeropuertoOrigen>Yiyo Vuelos 4k</nombreAeropuertoOrigen>
-        <nombreAeropuertoDestino>Ciudad Navaja Vuelos</nombreAeropuertoDestino>
-    </infoAeropuerto>
+        <primer_apellido>Vaca</primer_apellido>
+        <seg_apellido></seg_apellido>
+    </info_pasajero>
+    <info_aeropuerto>
+        <nombre_origen>Zaragoza</nombre_origen>
+        <nombre_destino>Barcelona</nombre_destino>
+        <nombre_aeropuertoOrigen>Yiyo Vuelos 4k</nombre_aeropuertoOrigen>
+        <nombre_aeropuertoDestino>Ciudad Navaja Vuelos</nombre_aeropuertoDestino>
+    </info_aeropuerto>
     <fechaYHora>
         <year>2024</year>
         <month>01</month>
@@ -61,3 +61,5 @@
         </canciones>
     </cancionesRecomendadas>
 </Spotify>
+
+<!-- Si nos encontramos varios elementos en la misma linea significa que son atributos -->

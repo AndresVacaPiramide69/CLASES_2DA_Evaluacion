@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog_productos>
+    <producto nombre="Iphone-11" precio="293€" descripcion="descripcon">
+        <caracteristicas>
+            <caracteristica id="1" valor="valor1"></caracteristica>
+            <caracteristica id="1" valor="valor1"></caracteristica>
+        </caracteristicas>
+    </producto>
+    <producto nombre="Iphone-14" precio="2857€" descripcion="descripcion">
+        <caracteristicas>
+            <caracteristica id="1" valor="valor1"></caracteristica>
+            <caracteristica id="1" valor="valor1"></caracteristica>
+        </caracteristicas>
+    </producto>
+</catalog_productos>
