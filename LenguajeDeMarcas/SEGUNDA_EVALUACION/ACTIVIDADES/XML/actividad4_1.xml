@@ -1,0 +1,65 @@
+<!-- ENUNCIADO 1 -->
+
+<? xml version="1.0" encoding="UTF-8"?>
+<billete>
+    <info_pasajero>
+        <nombre>Andres</nombre>
+        <primer_apellido>Vaca</primer_apellido>
+        <seg_apellido></seg_apellido>
+    </info_pasajero>
+    <info_aeropuerto>
+        <nombre_origen>Zaragoza</nombre_origen>
+        <nombre_destino>Barcelona</nombre_destino>
+        <nombre_aeropuertoOrigen>Yiyo Vuelos 4k</nombre_aeropuertoOrigen>
+        <nombre_aeropuertoDestino>Ciudad Navaja Vuelos</nombre_aeropuertoDestino>
+    </info_aeropuerto>
+    <fechaYHora>
+        <year>2024</year>
+        <month>01</month>
+        <day>28</day>
+        <hora>23:46</hora>
+    </fechaYHora>
+</billete>
+
+
+<!-- ENUNCIADO 2 -->
+
+<? xml version="1.0" encoding="UTF-8"?>
+<curriculoDAW>
+    <informacion nombre="Entornos de Desarrollo" codigo="0487">
+        <creditos>6</creditos>
+        <duracion>96</duracion>
+        <unidades>
+            <unidad id="1" nombre="Desarrollo software" duracion="20"></unidad>
+            <unidad id="2" nombre="Lenguaje de Marcas" duracion="25"></unidad>
+        </unidades>
+    </informacion>
+</curriculoDAW>
+
+
+<!-- ENUNCIADO 3 -->
+
+<? xml version="1.0" encoding="UTF-8"?>
+<Spotify>
+    <nombreLista>
+        <nombre>NOSECOMOSENTIRME</nombre>
+    </nombreLista>
+    <canciones nombre="KEONDA" fecha="2022">
+        <album></album>
+        <autores>
+            <nombre id="1" nombre="Saiko"></nombre>
+            <nombre id="2">Abhir Hathi</nombre>
+        </autores>
+        <numOyentesMensuales oyentes="2.481.498"></numOyentesMensuales>
+    </canciones>
+    <cancionesRecomendadas>
+        <canciones id="1" nombreCancion="305" >
+            <autores>
+                <nombre id="1" nombre="Alejo"></nombre>
+                <nombre id="2"></nombre>
+            </autores>
+        </canciones>
+    </cancionesRecomendadas>
+</Spotify>
+
+<!-- Si nos encontramos varios elementos en la misma linea significa que son atributos -->
