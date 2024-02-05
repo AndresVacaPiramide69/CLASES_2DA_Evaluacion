@@ -1,0 +1,22 @@
+<? xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos[
+    <!ELEMENT europa(paises, idiomas)>
+    <!ELEMENT paises(pais+)>
+    <!ATTLIST pais id ID #REQUIRED>
+    <!ELEMENT idiomas(idioma+)>
+    <!ELEMENT IDIOMA(#PCDATA)>
+    <!ATTLIST idioma id IDREF #REQUIRED>
+    <!ATTLIST idioma nivel (bajo | medio| alto)>
+]>
+<europa>
+    <paises>
+        <pais id="fr">Francia</pais>
+        <pais id="en">Inglaterra</pais>
+        <pais id="it">Italia</pais>
+    </paises>
+    <idiomas>
+        <idioma id="fr" nivel="bajo">Frances</idioma>
+        <idioma id="en" nivel="medio">Ingles</idioma>
+        <idioma id="it" nivel="alto">Italiano</idioma>
+    </idiomas>
+</europa>
