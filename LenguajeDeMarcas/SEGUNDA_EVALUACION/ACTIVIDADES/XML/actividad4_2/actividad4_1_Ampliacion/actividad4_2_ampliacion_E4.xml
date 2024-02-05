@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE empleados[
+    <!ELEMENT empleados (empleado+)>
+    <!ELEMENT empleado (nombre, apellido, edad, departamento, cargo)>
+    <!ATTLIST empleado id NMTOKEN #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+    <!ELEMENT departamento (#PCDATA)>
+    <!ELEMENT cargo (#PCDATA)>
+]>
+<empleados>
+    <empleado id="1">
+        <nombre>Ana</nombre>
+        <apellido>Garia</apellido>
+        <edad>30</edad>
+        <departamento>Ventas</departamento>
+        <cargo>Ejecutivo de ventas</cargo>
+    </empleado>
+    <empleado id="2">
+        <nombre>Luis</nombre>
+        <apellido>Rodríguez</apellido>
+        <edad>45</edad>
+        <departamento>Finanzas</departamento>
+        <cargo>Analista financiero</cargo>
+    </empleado>
+    <empleado id="3">
+        <nombre>María</nombre>
+        <apellido>López</apellido>
+        <edad>28</edad>
+        <departamento>Marketing</departamento>
+        <cargo>Especialista en redes sociales</cargo>
+    </empleado>
+</empleados>

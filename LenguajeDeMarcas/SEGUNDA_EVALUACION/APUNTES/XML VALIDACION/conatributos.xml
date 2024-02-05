@@ -1,0 +1,10 @@
+<? xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos[
+    <!ELEMENT productos(producto)>
+    <!ELEMENT producto (#PCDATA)>
+    <!ATTLIST "nombre_elemento" "nombre_atributo" CDATA>
+]>
+<productos>
+    <producto nuevo="yes">Teléfono</producto>
+</productos>
+

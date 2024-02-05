@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Ciudades[
+    <!ELEMENT Ciudades (ciudad+)>
+    <!ELEMENT ciudad (nombre)>
+    <!ATTLIST ciudad id NMTOKEN #REQUIRED>
+    <!ELEMENT nombre (pais)>
+    <!ATTLIST nombre nombre CDATA #REQUIRED>
+    <!ELEMENT pais (#PCDATA)>
+    <!ATTLIST pais nombre CDATA #REQUIRED>
+    <!ATTLIST pais continente CDATA #REQUIRED>
+]>
+<Ciudades>
+    <ciudad id="1">
+        <nombre nombre="Nueva Delhi">
+            <pais nombre="India" continente="Asia"></pais>
+        </nombre>
+    </ciudad>
+    <ciudad id="2">
+        <nombre nombre="Lisboa">
+            <pais nombre="Portugal" continente="Europa"></pais>
+        </nombre>
+    </ciudad>
+    <ciudad id="3">
+        <nombre nombre="El Cairo">
+            <pais nombre="Egípto" continente="África"></pais>
+        </nombre>
+    </ciudad>
+</Ciudades>
