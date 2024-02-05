@@ -1,0 +1,31 @@
+<? xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE libreria[
+    <!ELEMENT libreria (libros)>
+    <!ELEMENT libros (libro+)>
+    <!ATTLIST libro genero CDATA #REQUIRED>
+    <!ATTLIST libro id NMTOKEN #REQUIRED>
+    <ELEMENT libro (titulo, autor, precio, disponible)>ñ
+    <!ELEMENT 
+]>
+<libreria>
+    <libros>
+        <libro genero="Ciencia Ficción" id="1">
+            <titulo>La Fundación</titulo>
+            <autor>Isaac Asimov</autor>
+            <precio>25.99</precio>
+            <disponible>si</disponibilidad>
+        </libro>
+        <libro genero="Fantasía" id="2">
+            <titulo>Juego de Tronos</titulo>
+            <autor>George R.R. Martin</escritor>
+            <precio>29.99</costo>
+            <disponible>no</disponible>
+        </libro>
+        <libro genero="Aventura" id="3">
+            <titulo>La isla del tesoro</titulo>
+            <autor>Robert Louis Stevenson</escritor>
+            <precio>18.99</price>
+            <disponible>si</disponible>
+        </libro>
+    </libros>
+</libreria>

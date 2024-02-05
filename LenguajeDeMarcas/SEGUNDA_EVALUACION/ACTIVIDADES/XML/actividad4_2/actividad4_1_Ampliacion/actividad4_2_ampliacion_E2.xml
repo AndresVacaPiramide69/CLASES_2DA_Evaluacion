@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hechos_historicos[
+    <!ELEMENT hechos_historicos (hecho+)>
+    <!ELEMENT hecho (fecha)>
+    <!ATTLIST hecho id NMTOKEN #REQUIRED>
+    <!ATTLIST hecho descripcion CDATA #REQUIRED>
+    <!ELEMENT fecha (dia, mes, anio)>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+]>
+<hechos_historicos>
+    <hecho id="1" descripcion="IBM da a conocer el primer PC">
+        <fecha>
+            <dia>12</dia>
+            <mes>8</mes>
+            <anio>1981</anio>
+        </fecha>
+    </hecho>
+    <hecho id="2" descripcion="Se funda google">
+        <fecha>
+            <dia>4</dia>
+            <mes>9</mes>
+            <anio>1998</anio>
+        </fecha>
+    </hecho>
+    <hecho id="3" descripcion="Se funda Facebook">
+        <fecha>
+            <dia>4</dia>
+            <mes>2</mes>
+            <anio>2001</anio>
+        </fecha>
+    </hecho>
+</hechos_historicos>
